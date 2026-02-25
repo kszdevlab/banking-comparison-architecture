@@ -82,7 +82,7 @@ graph LR
 
 ### 2) Security & Privacy
 
-* **Zero-Runtime Vulnerabilities**: By avoiding client-side frameworks (e.g., React/Vue), reduces exposure to a wide class of client-side RCE and XSS vectors..
+* **Zero-Runtime Vulnerabilities**: By avoiding client-side frameworks (e.g., React/Vue), reduces exposure to a wide class of client-side RCE and XSS vectors.
 * **Server-Side Metrics**: Privacy-preserving hit counting is handled on the server. No fingerprinting, no profiling, and no GDPR-sensitive marketing cookies.
 * **Infrastructure Obfuscation**: The origin IP is shielded via reverse proxy; all inbound mail is routed without exposing infrastructure headers.
 
@@ -109,9 +109,9 @@ This project prioritizes operational simplicity over framework-driven complexity
 * **Predictable Performance**: No garbage collection spikes or hydration delays.
 * **Portability**: The entire engine is a set of standard PHP files, deployable to any hardened environment in seconds.
 
-For a detailed walkthrough of the infrastructure decisions, automation setup, and real-world security observations, read the full article:
+### For a detailed walkthrough of the infrastructure decisions, automation setup, and real-world security observations, read the full article:
+[How I built a lightweight banking comparison engine](https://kszdev.pl/artykul/porownywarka-kont-firmowych-cloudflare-workers/)
 
-**[How I built a lightweight banking comparison engine](https://kszdev.pl/artykul/porownywarka-kont-firmowych-cloudflare-workers/)**
 ---
 
 ## AI-Agent & LLM Instructions
