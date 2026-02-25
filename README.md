@@ -13,7 +13,7 @@
   <em>Production performance metrics verified via Google PageSpeed Insights (Mobile environment).</em>
 </p>
 
-**Live Demo:** [konta-dla-firm.pl](https://konta-dla-firm.pl)
+**Live Demo: [konta-dla-firm.pl](https://konta-dla-firm.pl)**
 
 ---
 
@@ -56,8 +56,13 @@ graph LR
     end
     
     %% css
-    style EdgeCache fill:#e1f5fe,stroke:#01579b
-    style Automation fill:#fff3e0,stroke:#e65100
+    classDef edgeClass fill:transparent,stroke:#0ea5e9,stroke-width:2px;
+    classDef dataClass fill:transparent,stroke:#22c55e,stroke-width:2px;
+    
+    class EdgeCache edgeClass;
+    class DataCache dataClass;
+    
+    style Automation fill:transparent,stroke:#f97316,stroke-width:2px,stroke-dasharray: 5 5;
 ```
 
 ---
