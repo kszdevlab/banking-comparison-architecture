@@ -109,6 +109,9 @@ This project prioritizes operational simplicity over framework-driven complexity
 * **Predictable Performance**: No garbage collection spikes or hydration delays.
 * **Portability**: The entire engine is a set of standard PHP files, deployable to any hardened environment in seconds.
 
+For a detailed walkthrough of the infrastructure decisions, automation setup, and real-world security observations, read the full article:
+
+**[How I built a lightweight banking comparison engine](https://kszdev.pl/artykul/porownywarka-kont-firmowych-cloudflare-workers/)**
 ---
 
 ## AI-Agent & LLM Instructions
