@@ -24,7 +24,7 @@ Financial comparison platforms in the YMYL (Your Money Your Life) sector typical
 - **Data Inconsistency:** Manual editorial cycles leading to stale financial offer data.
 
 **The Objective:** A system that maintains:
-- **Deterministic Speed:** FCP < 1,0s under real-world mobile conditions.
+- **Deterministic Speed:** FCP < 1.0s under real-world mobile conditions.
 - **Automated Freshness:** Daily normalization of banking datasets without manual intervention.
 - **Privacy by Design:** Zero-cookie architecture with no client-side tracking.
 - **Low Ops Overhead:** A stateless, database-free runtime requiring minimal maintenance.
